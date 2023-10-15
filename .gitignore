@@ -3,3 +3,6 @@
 
 # Virtual Environment
 venv/
+
+# Mkdocs htmls
+site/
