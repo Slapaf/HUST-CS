@@ -3,42 +3,44 @@ site_description: Collections of Computer Science and Technology
 repo_url: https://github.com/Slapaf/HUST-CS
 copyright: Copyright © 2023 HUST-211
 theme:
-  name: material
-  language: zh
-  features:
-    - header.autohide
+    name: material
+    language: zh
+    features:
+        - header.autohide
 nav:
-  - 主页: index.md
-  - 开发:
-      - Docker: develop/docker.md
-  - 语言:
-      - CPP: languages/cpp.md
-      - Python: languages/python.md
-  - 系统:
-      - Tools: system/tools.md
-      - Linux: system/linux.md
-      - Windows: system/windows.md
+    - 主页: index.md
+    - 开发:
+          - Docker: develop/docker.md
+    - 语言:
+          - CPP: languages/cpp.md
+          - Python: languages/python.md
+    - 研究:
+          - Distributed: research/distributed.md
+    - 系统:
+          - Tools: system/tools.md
+          - Linux: system/linux.md
+          - Windows: system/windows.md
 plugins:
-  - tags:
-      enabled: true
-      tags_slugify_separator: "-"
-  - search
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      slide_effect: slide
-      width: "100%"
-      height: auto
-      zoomable: true
-      draggable: true
-      auto_caption: false
-      caption_position: bottom
+    - tags:
+          enabled: true
+          tags_slugify_separator: "-"
+    - search
+    - glightbox:
+          touchNavigation: true
+          loop: false
+          effect: zoom
+          slide_effect: slide
+          width: "100%"
+          height: auto
+          zoomable: true
+          draggable: true
+          auto_caption: false
+          caption_position: bottom
 markdown_extensions:
-  - admonition
-  - attr_list
-  - md_in_html
-  - toc:
-      permalink: "#"
-  - pymdownx.highlight:
-      anchor_linenums: true
+    - admonition
+    - attr_list
+    - md_in_html
+    - toc:
+          permalink: "#"
+    - pymdownx.highlight:
+          anchor_linenums: true
