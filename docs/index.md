@@ -4,7 +4,8 @@
 
 ## Table of Contents
 
-- develop
-- languages
-- research
-- system
+- Develop
+- Languages
+- Others
+- Research
+- System

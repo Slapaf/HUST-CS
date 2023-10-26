@@ -16,10 +16,14 @@ nav:
           - Python: languages/python.md
     - 研究:
           - Distributed: research/distributed.md
+          - GPT: research/gpt.md
     - 系统:
           - Tools: system/tools.md
           - Linux: system/linux.md
           - Windows: system/windows.md
+    - 其他:
+          - Games: others/games.md
+          - OpenSource: others/opensource.md
 plugins:
     - tags:
           enabled: true
