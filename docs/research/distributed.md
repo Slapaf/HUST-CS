@@ -7,6 +7,7 @@
 ## 模型
 
 - [Hugging Face](https://huggingface.co/)
+- [labml.ai](https://labml.ai/)
 
 ## 框架
 
