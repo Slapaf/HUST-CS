@@ -21,6 +21,7 @@ nav:
       - 研究:
               - Distributed: research/distributed.md
               - GPT: research/gpt.md
+              - Paper: research/papers.md
       - 系统:
               - Tools: system/tools.md
               - Linux: system/linux.md
@@ -28,6 +29,7 @@ nav:
       - 其他:
               - Games: others/games.md
               - OpenSource: others/opensource.md
+              - Unknown: others/unknown.md
 plugins:
       - tags:
               enabled: true
